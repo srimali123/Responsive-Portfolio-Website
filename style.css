@@ -45,3 +45,9 @@
     margin-left: 25px;
     
 }
+/* home section styling */
+.home{
+    display: flex;
+    background: url("images/sri.jpg")no-repeat center;
+    height: 100vh;
+}
