@@ -50,4 +50,6 @@
     display: flex;
     background: url("images/sri.jpg")no-repeat center;
     height: 100vh;
+    color:#fff;
+    min-height: 500px;
 }
