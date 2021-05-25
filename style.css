@@ -19,6 +19,7 @@
     position: fixed;
     padding:30px 0 ;
     width: 100%;
+    z-index:900;
     font-family: 'Ubuntu',sans-serif;
     transition: all 0.3s ease;
 }
@@ -155,6 +156,36 @@ section{
 
 
 }
+.about .title::after{
+    content:"who i am";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    padding: 5px;
+   font-size: 20px;
+    color: crimson;
+    background:#fff;
+    transform: translateX(-50%);
+
+
+
+}
+
+.about .about-content .left img{
+    height:400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
 .about .about-content .left img{
 
     height: 400px;
