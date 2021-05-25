@@ -125,12 +125,27 @@
 }
 
 /* about section styling ----*/
+
+section{
+    padding: 100px 0;
+}
 .about{
     font-family:'Poppins',sans-serif ;
 
 }
 .about .title{
     font-family: 'Ubuntu',sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.about .about-content .left img{
+
+    height: 400px;
+    width: 400px;
+    object-fit:cover;
 }
 
 
