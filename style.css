@@ -134,12 +134,26 @@ section{
 
 }
 .about .title{
+    position: relative;
     font-family: 'Ubuntu',sans-serif;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
     text-align: center;
+}
+.about .title:before{
+    content:"";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width:180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+
+
+
 }
 .about .about-content .left img{
 
