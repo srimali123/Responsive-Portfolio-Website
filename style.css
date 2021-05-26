@@ -428,6 +428,11 @@ justify-content:space-between ;
             font-size: 20px;
            
         }
+
+        .services .serv-content .card{
+            width:100%;
+           
+        }
     }
     
 
