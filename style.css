@@ -416,6 +416,7 @@ section .title::after{
  border-radius: 6px;
  padding: 25px 35px;
  text-align: center;
+ transition: all 0.3s ease;
 
 }
 .projects .carousel .card .box{
@@ -424,6 +425,11 @@ section .title::after{
     align-items: center;
     justify-content: center;
 }
+.projects .carousel .card:hover{
+background: crimson;
+}
+
+
 .projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
