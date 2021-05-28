@@ -129,7 +129,7 @@
  section{
     padding: 100px 0;
 }
-.about, .services, .skills, .projects, .contact{
+.about, .services, .skills, .projects, .contact, footer{
     font-family:'Poppins',sans-serif ;
 
 }
@@ -586,6 +586,21 @@ background: crimson;
 
 
 }
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
 
 /* responsive media query start */
 
@@ -736,6 +751,8 @@ background: crimson;
     .home .home-content .text-3{
         font-size: 27px;
     }
+
+
 
 }
 }
