@@ -28,14 +28,14 @@ $('.scroll-up-btn').click(function(){
 
 // typing animation script
    var typed =new Typed(".typing",{
-       strings:["Software Developer","Web Designer","Graphic Designer"],
+       strings:["Undergraduate","Web Designer","Graphic Designer"],
        typeSpeed:100,
        backSpeed:60,
        loop:true
     
    });
    var typed =new Typed(".typing-2",{
-    strings:["Software Developer","Web Designer","Graphic Designer"],
+    strings:["Undergraduate","Web Designer","Graphic Designer"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
