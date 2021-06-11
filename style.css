@@ -533,6 +533,10 @@ background: crimson;
 
  .certificates .carousel2 .card1 .box1{
      display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.3s ease;
 
  }
 
@@ -544,7 +548,7 @@ background: crimson;
 
  .certificates .carousel2 .card1 img{
  height: 200px;
- width: 350px;
+ width: 300px;
  transition: all 0.3s ease;
  
  border-radius: 10;
