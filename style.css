@@ -158,14 +158,15 @@ html{
  section{
     padding: 100px 0;
 }
-.about, .services, .skills, .projects, .contact, footer{
+.about, .services, .skills, .projects, .contact,.certificates, footer{
     font-family:'Poppins',sans-serif ;
 
 }
 .about .about-content,
 .services .serv-content
 ,.skills .skills-content,
-.contact .contact-content{
+.contact .contact-content,
+.certificates .contact-content{
 display: flex;
 flex-wrap: wrap;
 align-items: center;
@@ -188,7 +189,7 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width:180px;
+    width:200px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
@@ -269,18 +270,21 @@ section .title::after{
 
 
 /* services section styling */
-.services, .projects{
+.services, .projects,.contact{
     color:#fff;
     background:#111;
 }
 .services .title::before,
-.projects .title::before{
+.projects .title::before,
+.contact  .title::before{
     background: #fff;
 
 }
 
 .services .title::after,
-.projects .title::after{
+.projects .title::after,
+.contact .title::after
+{
     background: #111;
     content: "what i provide ";
 
@@ -328,7 +332,8 @@ section .title::after{
 }
 /* skills section styling */
 
-.skills .title::after{
+.skills .title::after,
+.certificates .title::after{
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -511,6 +516,13 @@ background: crimson;
 
 
    }
+  /* certificate section */
+  .certificates .title::after{
+      content: "what i completed";
+  }
+
+
+
 
 
    /* contact section styling */
@@ -578,7 +590,7 @@ background: crimson;
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: rgb(248, 237, 237);
 
 }
 .contact .right form .fields{
