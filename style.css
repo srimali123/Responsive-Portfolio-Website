@@ -480,10 +480,10 @@ background: crimson;
     margin: 10px 0 7px 0;
 }
 .projects .carousel .card img{
-    height: 200px;
+    height: 150px;
     width:250px ;
   
-    border-radius: 10%;
+    border-radius: 10;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 
@@ -521,24 +521,42 @@ background: crimson;
       content: "what i completed";
   }
  .certificates .carousel2 .card1{
-     background: rgb(219, 210, 210);
+     background: rgb(31, 30, 30);
      border-radius: 6px;
-     padding: 35px 35px;
+     padding: 25px 35px ;
+     transition: all 0.3s ease;
 
  }
+.certificates .carousel2 .card1:hover {
+    background: crimson;
+}
+
  .certificates .carousel2 .card1 .box1{
      display: flex;
 
+ }
+
+ .certificates .carousel2 .card1:hover .box1{
+
+    transform: scale(1.10);
  }
 
 
  .certificates .carousel2 .card1 img{
  height: 200px;
  width: 400px;
- 
- 
+ transition: all 0.3s ease;
+
  
  }
+ .certificates .carousel2 .card1:hover img{
+      border-color: #fff;
+
+ }
+
+ 
+
+
 
    /* contact section styling */
 
