@@ -523,7 +523,7 @@ background: crimson;
  .certificates .carousel2 .card1{
      background: rgb(31, 30, 30);
      border-radius: 6px;
-     padding: 25px 35px ;
+     padding: 30px 45px ;
      transition: all 0.3s ease;
 
  }
@@ -544,9 +544,12 @@ background: crimson;
 
  .certificates .carousel2 .card1 img{
  height: 200px;
- width: 400px;
+ width: 350px;
  transition: all 0.3s ease;
-
+ 
+ border-radius: 10;
+ border: 5px solid crimson;
+ 
  
  }
  .certificates .carousel2 .card1:hover img{
@@ -555,8 +558,6 @@ background: crimson;
  }
 
  
-
-
 
    /* contact section styling */
 
