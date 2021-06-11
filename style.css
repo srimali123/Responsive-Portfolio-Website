@@ -518,7 +518,7 @@ background: crimson;
    }
   /* certificate section */
   .certificates .title::after{
-      content: "what i completed";
+      content: "completed";
   }
  .certificates .carousel2 .card1{
      background: rgb(31, 30, 30);
@@ -538,7 +538,7 @@ background: crimson;
 
  .certificates .carousel2 .card1:hover .box1{
 
-    transform: scale(1.10);
+    transform: scale(1.03);
  }
 
 
