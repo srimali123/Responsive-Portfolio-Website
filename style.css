@@ -518,7 +518,7 @@ background: crimson;
    }
   /* certificate section */
   .certificates .title::after{
-    content:"what i done";
+    content:"what i completed";
 }
 .certificates .carousel2 .card1{
  background: #222;
