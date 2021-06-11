@@ -523,7 +523,7 @@ background: crimson;
 .certificates .carousel2 .card1{
  background: #222;
  border-radius: 6px;
- padding: 25px 35px;
+ padding: 29px 39px;
  text-align: center;
  transition: all 0.3s ease;
 
@@ -554,8 +554,8 @@ background: crimson;
     margin: 10px 0 7px 0;
 }
 .certificates .carousel2 .card1 img{
-    height: 150px;
-    width:250px ;
+    height: 170px;
+    width:290px ;
   
     border-radius: 10;
     border: 5px solid crimson;
