@@ -443,8 +443,10 @@ section .title::after{
    }
    
 /* projects styling */
+
+
 .projects .title::after{
-    content:"what i done";
+    content:"Completed";
 }
 .projects .carousel .card{
  background: #222;
