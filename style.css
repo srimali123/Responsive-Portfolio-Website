@@ -165,8 +165,7 @@ html{
 .about .about-content,
 .services .serv-content
 ,.skills .skills-content,
-.contact .contact-content,
-.certificates .contact-content{
+.contact .contact-content{
 display: flex;
 flex-wrap: wrap;
 align-items: center;
@@ -193,8 +192,7 @@ section .title::before{
     height: 3px;
     background: #111;
     transform: translateX(-50%);
-
-
+    
 
 }
 section .title::after{
@@ -284,6 +282,8 @@ section .title::after{
 .services .title::after,
 .projects .title::after,
 .contact .title::after
+
+
 {
     background: #111;
     content: "what i provide ";
