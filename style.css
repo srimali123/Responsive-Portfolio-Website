@@ -446,7 +446,7 @@ section .title::after{
 
 
 .projects .title::after{
-    content:"Completed";
+    content:"what i done";
 }
 .projects .carousel .card{
  background: #222;
@@ -520,7 +520,7 @@ background: crimson;
    }
   /* certificate section */
   .certificates .title::after{
-    content:"what i completed";
+    content:"completed";
 }
 .certificates .carousel2 .card1{
  background: #222;
@@ -556,8 +556,8 @@ background: crimson;
     margin: 10px 0 7px 0;
 }
 .certificates .carousel2 .card1 img{
-    height: 170px;
-    width:290px ;
+    height: 190px;
+    width:300px ;
   
     border-radius: 10;
     border: 5px solid crimson;
