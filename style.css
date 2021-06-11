@@ -520,10 +520,14 @@ background: crimson;
   .certificates .title::after{
       content: "what i completed";
   }
+ .certificates .carousel2 .card1{
 
+ }
 
-
-
+ .certificates .carousel2 .card1 img{
+ height: 200px;
+ width: 400px;
+ }
 
    /* contact section styling */
 
